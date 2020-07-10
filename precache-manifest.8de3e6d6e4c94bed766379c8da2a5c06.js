@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3b51aa1faba513bdb97e6e946dd0129",
+    "revision": "c2aeb797e4850b90ee2816eb27f659ed",
     "url": "/Gilberto_Placidon_Portfolio/index.html"
   },
   {
-    "revision": "5d22771b32455f42063e",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/main.e5635170.chunk.css"
+    "revision": "0f65cbd43ce6d73c2995",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/main.deebc090.chunk.css"
   },
   {
-    "revision": "6f0cbc6655ddc4c7901e",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.eb1c66bd.chunk.js"
+    "revision": "f816f039e5c09dbd0518",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.3bd13472.chunk.js"
   },
   {
     "revision": "088d890b6679633115639f652c872694",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.eb1c66bd.chunk.js.LICENSE.txt"
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.3bd13472.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d22771b32455f42063e",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/main.b8e6dec5.chunk.js"
+    "revision": "0f65cbd43ce6d73c2995",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/main.bc97783c.chunk.js"
   },
   {
     "revision": "537519b8a5f8fac0720e",
