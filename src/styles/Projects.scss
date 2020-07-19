@@ -1,0 +1,152 @@
+.section-header {
+  position: relative;
+  display: flex;
+  width: 80px;
+  height: 45px;
+  margin-top: 2em;
+  margin-bottom: 0.3em;
+  //   background-color: salmon;
+  #projects-icon {
+    position: relative;
+    margin: 0.2rem;
+    width: 20px;
+    height: 100%;
+    align-self: center;
+    fill: white;
+  }
+}
+
+#projects-card-container {
+  position: relative;
+  width: calc(100vw - 2rem);
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10em;
+  background-color: skyblue;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  > h3 {
+    margin-left: 0.5em;
+    margin-top: 2px;
+    align-self: center;
+    color: white;
+    font-size: 1.7em;
+  }
+
+  #game-of-life-project {
+  }
+
+  .project-card {
+    position: relative;
+    width: 350px;
+    min-width: 300px;
+    height: 466px;
+    display: grid;
+    background: linear-gradient(180deg, #a7a7a7 -35.4%, #000000 100%);
+    margin: 0.3em;
+    border-radius: 8px;
+    border: 1px solid white;
+    border-style: inset;
+    z-index: 10;
+    grid-template-columns: 1;
+    grid-template-rows: 14% 54% 32%;
+    margin-left: 2rem;
+
+    .project-title {
+      position: relative;
+      grid-column: 1/2;
+      grid-row: 1/2;
+      background-color: black;
+      border-radius: 8px 8px 0 0;
+      z-index: -14;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+
+      > p {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .project-image-container {
+      position: relative;
+      height: 100%;
+      // height: 68%;
+      background-size: cover;
+      overflow: hidden;
+      cursor: pointer;
+
+      #project-image {
+        position: relative;
+        height: calc(145%);
+        transform-origin: 50% 50%;
+        left: -5%;
+        top: -20%;
+        background-repeat: none;
+        overflow: hidden;
+      }
+    }
+    .project-details {
+      position: relative;
+      background: linear-gradient(180deg, #626262 -65%, #000000 100%);
+      border: 1.5px solid #ffffff;
+
+      > p {
+        position: relative;
+        color: white;
+        margin: 1rem;
+      }
+    }
+  }
+}
+
+#project-showcase {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-color: rgb(80, 80, 80);
+  z-index: 10;
+  left: 50%;
+  top: -150%;
+  transform: translate(-50%, -50%);
+
+  .close-button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border: 4px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 45%;
+      top: 5%;
+      width: 2%;
+      height: 80%;
+      border: 2px solid white;
+      background-color: white;
+      transform: rotate(45deg);
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      left: 45%;
+      top: 5%;
+      width: 2%;
+      height: 80%;
+      border: 2px solid white;
+      background-color: white;
+      transform: rotate(-45deg);
+    }
+  }
+}

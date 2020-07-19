@@ -1,0 +1,107 @@
+$primaryColor: #0d72f2;
+$secondaryColor: #0de4f2;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.gol-container {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  position: relative;
+  color: white;
+  top: -1rem;
+  left: 0.1rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.board {
+  position: relative;
+  width: 328px;
+  height: auto;
+  max-height: 544px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .cell {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(172, 172, 172);
+    margin-left: 1px;
+    margin-bottom: 1px;
+  }
+}
+
+.game-menu {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 2em;
+  width: auto;
+  margin-top: 1em;
+}
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: $primaryColor;
+  margin-left: 3rem;
+  font-family: "Open Sans", sans-serif;
+  &:hover {
+    background-color: $secondaryColor;
+  }
+}
+
+.randomize {
+  position: relative;
+  width: 10em;
+  height: 2em;
+
+  cursor: pointer;
+}
+
+.clear {
+  position: relative;
+  width: 5em;
+  height: 2em;
+
+  cursor: pointer;
+}
+
+.togglePlay {
+  position: relative;
+  width: 6em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.alive {
+  background-color: $primaryColor !important;
+}
+
+.newBorn {
+  background-color: $secondaryColor !important;
+}
+
+@media (min-width: 768px) {
+  .board {
+    width: 752px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .board {
+    width: 1152px;
+  }
+}

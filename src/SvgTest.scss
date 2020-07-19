@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
+
+* {
+  box-sizing: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin center-element {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  // background-color: pink;
+  overflow: visible;
+}
+
+.grid-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  // margin-top: 16px;
+  // margin-left: 32px;
+}
+
+.swiss-circle-container {
+  position: relative;
+  margin-left: -2em;
+  margin-top: -1em;
+  // width: inherit;
+  // height: inherit;
+
+  #circ-1 {
+    position: relative;
+    stroke-width: 2px;
+  }
+  #circ-2 {
+    position: relative;
+    stroke-width: 4px;
+  }
+  #circ-3 {
+    position: relative;
+    stroke-width: 8px;
+  }
+  #circ-4 {
+    position: relative;
+    stroke-width: 16px;
+  }
+  #circ-5 {
+    position: relative;
+    stroke-width: 32px;
+  }
+  #circ-6 {
+    position: relative;
+    stroke-width: 320px;
+  }
+}
+
+#title-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  color: white;
+  font-size: 3.8em;
+  font-weight: 600;
+}
+
+#sub-title {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+}

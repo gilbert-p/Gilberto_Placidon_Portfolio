@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
+$color1: #d4f0fc;
+$color2: #89d6fb;
+$color3: #02a9f7;
+$color4: #02577a;
+$color5: #01303f;
+
+body {
+  background-color: black;
+}
+
+@mixin center-element {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  // background-color: pink;
+  overflow: visible;
+}
+
+.grid-container {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.swiss-circle-container {
+  position: relative;
+  margin-left: -2em;
+  margin-top: -1em;
+  // width: inherit;
+  // height: inherit;
+
+  #circ-1 {
+    position: relative;
+    stroke-width: 2px;
+    stroke: $color1;
+  }
+  #circ-2 {
+    position: relative;
+    stroke-width: 4px;
+    stroke: $color2;
+  }
+  #circ-3 {
+    position: relative;
+    stroke-width: 8px;
+    stroke: $color3;
+  }
+  #circ-4 {
+    position: relative;
+    stroke-width: 16px;
+    stroke: $color4;
+  }
+  #circ-5 {
+    position: relative;
+    stroke-width: 32px;
+    stroke: $color5;
+  }
+}
+
+#title-container {
+  position: absolute;
+  width: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-56%, -50%);
+  margin: 0;
+}
+
+#name {
+  color: white;
+  font-size: 3.8em;
+  font-weight: 600;
+}
+
+#sub-title {
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #title-container {
+    transform: translate(-56%, -50%);
+    #name {
+      width: auto;
+      font-size: 3.42em;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #title-container {
+    transform: translate(-56%, -50%);
+    #name {
+      width: auto;
+      font-size: 3em;
+    }
+  }
+}

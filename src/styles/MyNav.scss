@@ -1,0 +1,228 @@
+$color-link-1: #429ffe;
+$color-link-2: #e96feb;
+$color-link-3: #a761ff;
+$color-link-4: #ff6057;
+
+.nav-container {
+  position: fixed;
+  width: 100vw;
+  height: 6em;
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr 2fr 150px;
+  grid-template-rows: 4em;
+  top: 2em;
+  background-color: #2d2f31c2;
+  z-index: 999;
+
+  .logo-container {
+    position: relative;
+    width: 6em;
+    height: auto;
+    grid-column: 2/3;
+
+    #nav-logo {
+      position: absolute;
+      left: 0;
+      top: 3px;
+    }
+  }
+
+  .link-container {
+    position: relative;
+    // background-color: white;
+    grid-column: 4/5;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2em;
+    font-weight: 500;
+    overflow: visible;
+    margin-top: 1em;
+
+    :nth-child(n) {
+      cursor: pointer;
+    }
+
+    .home-link {
+      color: #429ffe;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: inherit;
+        left: inherit;
+        width: inherit;
+        height: 2px;
+        background-color: #429ffe;
+      }
+    }
+
+    .about-me-link {
+      color: #e96feb;
+    }
+
+    .skills-link {
+      color: #a761ff;
+    }
+
+    .projects-link {
+      color: #ff6057;
+    }
+  }
+}
+
+.nav-button {
+  position: fixed;
+  display: none;
+  width: 5em;
+  height: 5em;
+  background-color: #2d2f31b7;
+  border: 1px solid white;
+  left: calc(100% - 2em);
+  top: calc(100% - 2em);
+  border-radius: 50%;
+  transform: translate(-100%, -100%);
+  z-index: 999;
+
+  .hamburger-nav {
+    position: absolute;
+    width: 3em;
+    height: 0.3em;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    &:after {
+      content: "";
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      background-color: white;
+      left: inherit;
+      transform: inherit;
+      top: 1em;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      background-color: white;
+      left: inherit;
+      transform: inherit;
+      top: -0.7em;
+    }
+  }
+}
+
+.mobile-nav-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: -150%;
+  background-color: #2d2f31;
+  z-index: 998;
+
+  .mobile-link-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 1.5em);
+    // min-width: 100%;
+    height: calc(100vh - 15em);
+    // background-color: skyblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    > a {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      // background-color: salmon;
+      margin-bottom: 0.5em;
+      text-align: center;
+      font-size: 1.7em;
+      font-weight: 700;
+      color: #929191;
+      > span {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    #mobile-home-link {
+      color: $color-link-1;
+    }
+    #mobile-about-me-link {
+      color: $color-link-2;
+    }
+    #mobile-skills-link {
+      color: $color-link-3;
+    }
+    #mobile-projects-link {
+      color: $color-link-4;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    position: fixed;
+    width: 100vw;
+    height: 6em;
+    display: none;
+    grid-template-columns: 150px 1fr 1fr 2fr 150px;
+    grid-template-rows: 4em;
+    top: calc(100% - 7em);
+    background-color: #2d2f31;
+    z-index: 2;
+  }
+
+  .nav-button {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    position: fixed;
+    width: 100vw;
+    height: 6em;
+    display: none;
+    grid-template-columns: 150px 1fr 1fr 2fr 150px;
+    grid-template-rows: 4em;
+    top: calc(100% - 7em);
+    background-color: #2d2f31;
+    z-index: 2;
+  }
+
+  .nav-button {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-button {
+    width: 3.5em;
+    height: 3.5em;
+
+    .hamburger-nav {
+      width: 2em;
+      height: 0.2em;
+
+      &:after {
+        top: 0.8em;
+      }
+
+      &:before {
+        top: -0.6em;
+      }
+    }
+  }
+}

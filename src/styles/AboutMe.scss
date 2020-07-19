@@ -1,0 +1,129 @@
+// .about-me-container {
+//   position: relative;
+//   display: flex;
+//   width: 100vw;
+//   height: 100vh;
+//   background-color: #54595f;
+// }
+
+.about-me-content {
+  position: relative;
+  // background-color: rgb(97, 96, 96);
+  display: grid;
+  // left: 50%;
+  // top: 50%;
+  height: auto;
+  width: 100vw;
+  // min-height: 640px;
+  // max-height: auto;
+  // transform: translate(-50%, -50%);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: 1fr;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 0;
+  }
+
+  .about-me-text-container {
+    position: relative;
+    // background-color: salmon;
+    max-height: auto;
+    // margin-top: 2rem;
+    text-align: left;
+    z-index: 10;
+
+    > h2 {
+      color: white;
+      font-size: 3.8rem;
+      // margin-bottom: 2.5rem;
+      padding: 1.5rem;
+    }
+
+    > p {
+      color: white;
+      font-size: 1.2rem;
+      // margin-bottom: 2rem;
+      line-height: 1.7rem;
+      padding: 1.5rem;
+    }
+  }
+}
+
+.about-me-graphic-container {
+  position: relative;
+  // width: 50%;
+  min-height: 300px;
+  top: 50px;
+  margin: 0 auto;
+  z-index: 10;
+
+  #laptop-graphic {
+    position: absolute;
+    // background-color: skyblue;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%, 25%) scale(0.9);
+    z-index: 10;
+
+    > img {
+      position: relative;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  #sass-graphic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  #node-graphic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  #react-graphic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  #firebase-graphic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+
+  #gsap-graphic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.7);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-me-graphic-container {
+    transform: scale(0.6);
+  }
+}
