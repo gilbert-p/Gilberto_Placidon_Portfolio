@@ -38,6 +38,15 @@ const MyNav = () => {
     gsap.to(window, { duration: 1, scrollTo: ".skills-container" });
   };
 
+  const navigateProjects = (e) => {
+    e.preventDefault();
+    if (showMenu) {
+      gsap.to(".mobile-nav-container", { top: scrollBack, duration });
+      setShowMenu(!showMenu);
+    }
+    gsap.to(window, { duration: 1, scrollTo: "#projects-card-container" });
+  };
+
   const mobileMenu = () => {
     let isOpen = showMenu;
     if (!isOpen) {
@@ -65,7 +74,7 @@ const MyNav = () => {
           <a onClick={navigateSkills} href="#" id="mobile-skills-link">
             <span>Skills</span>
           </a>
-          <a href="" id="mobile-projects-link">
+          <a onClick={navigateProjects} href="#" id="mobile-projects-link">
             <span>Projects</span>
           </a>
         </div>
@@ -82,8 +91,12 @@ const MyNav = () => {
           <div className="about-me-link" onClick={navigateAbout}>
             About
           </div>
-          <div className="skills-link">Skills</div>
-          <div className="projects-link">Projects</div>
+          <div className="skills-link" onClick={navigateSkills}>
+            Skills
+          </div>
+          <div className="projects-link" onClick={navigateProjects}>
+            Projects
+          </div>
         </div>
       </div>
     </>

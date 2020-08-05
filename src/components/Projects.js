@@ -97,7 +97,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div id="other-project-1" className="project-card">
+        {/* <div id="other-project-1" className="project-card">
           <div className="project-title">
             <p>Conway's Game of Life</p>
           </div>
@@ -126,7 +126,7 @@ const Projects = () => {
               rem, dolor earum!
             </p>
           </div>
-        </div>
+        </div> */}
         <div id="project-showcase">
           {showProject ? <GameOfLifeV2></GameOfLifeV2> : null}
           <div className="close-button" onClick={closeGameOfLife}></div>

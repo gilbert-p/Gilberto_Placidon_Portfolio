@@ -198,7 +198,6 @@ const GameOfLifeV2 = () => {
   return (
     <>
       <div className="gol-container">
-        <h3 className="title">Conway's Game Of Life</h3>
         <div className="board">
           {windowWidth
             ? cellGrid.map((tableRow, row_index) => {
