@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.f6fad841.chunk.css",
-    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.3dd2cdf2.chunk.js",
-    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.3dd2cdf2.chunk.js.map",
+    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.2d4b0ea9.chunk.css",
+    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.30e54b3b.chunk.js",
+    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.30e54b3b.chunk.js.map",
     "runtime-main.js": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js",
     "runtime-main.js.map": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js.map",
-    "static/css/2.e2e90ccc.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.e2e90ccc.chunk.css",
-    "static/js/2.255843e8.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.255843e8.chunk.js",
-    "static/js/2.255843e8.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.255843e8.chunk.js.map",
+    "static/css/2.799c978e.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css",
+    "static/js/2.01ab78a3.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.01ab78a3.chunk.js",
+    "static/js/2.01ab78a3.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.01ab78a3.chunk.js.map",
     "index.html": "/Gilberto_Placidon_Portfolio/index.html",
-    "precache-manifest.5baa61fd42529dc340bf0e27947b39af.js": "/Gilberto_Placidon_Portfolio/precache-manifest.5baa61fd42529dc340bf0e27947b39af.js",
+    "precache-manifest.497e9aa3cdcd00becf1c366466fc6f26.js": "/Gilberto_Placidon_Portfolio/precache-manifest.497e9aa3cdcd00becf1c366466fc6f26.js",
     "service-worker.js": "/Gilberto_Placidon_Portfolio/service-worker.js",
-    "static/css/2.e2e90ccc.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.e2e90ccc.chunk.css.map",
-    "static/css/main.f6fad841.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.f6fad841.chunk.css.map",
-    "static/js/2.255843e8.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.255843e8.chunk.js.LICENSE.txt",
-    "static/media/GOL_Image_Still.png": "/Gilberto_Placidon_Portfolio/static/media/GOL_Image_Still.9c1c6b45.png",
-    "static/media/all.svg": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg",
-    "static/media/gsap-logo1.5x.png": "/Gilberto_Placidon_Portfolio/static/media/gsap-logo1.5x.fd5c7a46.png",
-    "static/media/vintage&morelli.jpg": "/Gilberto_Placidon_Portfolio/static/media/vintage&morelli.a84a34f3.jpg"
+    "static/css/2.799c978e.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css.map",
+    "static/css/main.2d4b0ea9.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.2d4b0ea9.chunk.css.map",
+    "static/js/2.01ab78a3.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.01ab78a3.chunk.js.LICENSE.txt",
+    "static/media/Projects.scss": "/Gilberto_Placidon_Portfolio/static/media/transistor_sword.4432bce4.png",
+    "static/media/culb_1.png": "/Gilberto_Placidon_Portfolio/static/media/culb_1.0be93193.png",
+    "static/media/culb_2.png": "/Gilberto_Placidon_Portfolio/static/media/culb_2.deb70cbd.png",
+    "static/media/culb_3.png": "/Gilberto_Placidon_Portfolio/static/media/culb_3.2b09ae73.png",
+    "static/media/culb_4.png": "/Gilberto_Placidon_Portfolio/static/media/culb_4.0aec4556.png",
+    "static/media/culb_5.png": "/Gilberto_Placidon_Portfolio/static/media/culb_5.65ecac8e.png",
+    "static/media/culb_6.png": "/Gilberto_Placidon_Portfolio/static/media/culb_6.8a7f5a93.png",
+    "static/media/culb_7.png": "/Gilberto_Placidon_Portfolio/static/media/culb_7.292ce1f2.png",
+    "static/media/gsap-logo1.5x.png": "/Gilberto_Placidon_Portfolio/static/media/gsap-logo1.5x.fd5c7a46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f1e156d5.js",
-    "static/css/2.e2e90ccc.chunk.css",
-    "static/js/2.255843e8.chunk.js",
-    "static/css/main.f6fad841.chunk.css",
-    "static/js/main.3dd2cdf2.chunk.js"
+    "static/css/2.799c978e.chunk.css",
+    "static/js/2.01ab78a3.chunk.js",
+    "static/css/main.2d4b0ea9.chunk.css",
+    "static/js/main.30e54b3b.chunk.js"
   ]
 }
