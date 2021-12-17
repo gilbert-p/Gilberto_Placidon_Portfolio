@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "347cf9b57f708bebc32314a5d3d5ec3e",
+    "revision": "fbdc34c256edfda607fcb7388bc69df1",
     "url": "/Gilberto_Placidon_Portfolio/index.html"
   },
   {
-    "revision": "7b9f67f27127bfe509b0",
+    "revision": "5a02aa9530c57ce6d366",
     "url": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css"
   },
   {
-    "revision": "d14126cafe201f484ac5",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/main.2d4b0ea9.chunk.css"
+    "revision": "03603db6103175b12a92",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/main.9b11f528.chunk.css"
   },
   {
-    "revision": "7b9f67f27127bfe509b0",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.01ab78a3.chunk.js"
+    "revision": "5a02aa9530c57ce6d366",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js"
   },
   {
     "revision": "088d890b6679633115639f652c872694",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.01ab78a3.chunk.js.LICENSE.txt"
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d14126cafe201f484ac5",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/main.30e54b3b.chunk.js"
+    "revision": "03603db6103175b12a92",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/main.40d41a3e.chunk.js"
   },
   {
     "revision": "537519b8a5f8fac0720e",
@@ -72,8 +72,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gilberto_Placidon_Portfolio/static/media/culb_7.292ce1f2.png"
   },
   {
+    "revision": "725615b09ded3e642c5788451ca53561",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_1.725615b0.png"
+  },
+  {
+    "revision": "44115e780a30c385c9efa052ca4f80e2",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_2.44115e78.png"
+  },
+  {
+    "revision": "843f697e5c598e7c81f99937854b69be",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_3.843f697e.png"
+  },
+  {
+    "revision": "26c660399ff18d2974543fc084a24d99",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_4.26c66039.png"
+  },
+  {
+    "revision": "5f6bbe01561e94abc3b44c8e72973aa7",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_5.5f6bbe01.png"
+  },
+  {
+    "revision": "126e4dbc0930d00ec1160a5677a59c1f",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_6.126e4dbc.png"
+  },
+  {
+    "revision": "62278d77cc29fe4c21d66b0d185db14c",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/gina_7.62278d77.png"
+  },
+  {
     "revision": "fd5c7a4674964bb863437af5e1d04b4c",
     "url": "/Gilberto_Placidon_Portfolio/static/media/gsap-logo1.5x.fd5c7a46.png"
+  },
+  {
+    "revision": "17d4a1afb940ecd52e3c67ea526db02b",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/mdl_1.17d4a1af.png"
+  },
+  {
+    "revision": "5b4a8d29178e33dbf47be07246c44b34",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/mdl_2.5b4a8d29.png"
   },
   {
     "revision": "da8914e772d8f97fd2e77ec285875778",
