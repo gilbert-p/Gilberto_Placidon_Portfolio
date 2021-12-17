@@ -10,6 +10,15 @@ import culb_4 from "../assets/slideshow/culb_4.png";
 import culb_5 from "../assets/slideshow/culb_5.png";
 import culb_6 from "../assets/slideshow/culb_6.png";
 import culb_7 from "../assets/slideshow/culb_7.png";
+import gina_1 from "../assets/slideshow/gina_1.png";
+import gina_2 from "../assets/slideshow/gina_2.png";
+import gina_3 from "../assets/slideshow/gina_3.png";
+import gina_4 from "../assets/slideshow/gina_4.png";
+import gina_5 from "../assets/slideshow/gina_5.png";
+import gina_6 from "../assets/slideshow/gina_6.png";
+import gina_7 from "../assets/slideshow/gina_7.png";
+import mdl_1 from "../assets/slideshow/mdl_1.png";
+import mdl_2 from "../assets/slideshow/mdl_2.png";
 
 
 const Projects = () => {
@@ -22,7 +31,8 @@ const Projects = () => {
 
   const slideshowImages = {
     "amzn_1" : [culb_7, culb_1, culb_2, culb_3, culb_4, culb_5, culb_6],
-    "amzn_2" : [culb_7, culb_6]
+    "amzn_2" : [gina_1, gina_2, gina_3, gina_4, gina_5, gina_6, gina_7],
+    "mdl"    : [mdl_1, mdl_2]
     };
 
   const properties = {
@@ -50,7 +60,7 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="amzn_dsp_2 content-block">
+          <div className="amzn_dsp_2 content-block" onClick={()=>{showContent("amzn_2")}}>
             <div className="amzn_dsp_2 background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -58,7 +68,7 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="mdl content-block">
+          <div className="mdl content-block" onClick={()=>{showContent("mdl")}}>
             <div className="mdl background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -101,12 +111,16 @@ const Projects = () => {
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
         </div>
+
+        {/* <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script> */}
    
 
       </section>
       {showSlideShow ?       
       (<div className="slide-container">
-                <div className="close-button" onClick={()=>{setSlideShow(false)}}></div>
+                <div className="close-button" onClick={()=>{setSlideShow(false)}}>
+                  <p>CLOSE</p>
+                </div>
 
                   <Slide {...properties} easing="ease">
 
