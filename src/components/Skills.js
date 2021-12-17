@@ -9,7 +9,7 @@ import gsap_logo from "../assets/gsap-logo.png";
 const Skills = () => {
   return (
     <>
-      <section className="skills-container">
+      <section id="skills-section" className="section-container">
         <div className="section-header">
           <svg
             stroke-width="0"

@@ -10,7 +10,7 @@ const App = () => {
     <>
       <MyNav />
       <Page_1 />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Skills />
       <Projects />
     </>

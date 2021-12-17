@@ -1,5 +1,9 @@
 @import "./UtilityStyles.scss";
 
+#skills-section {
+  height: auto;
+}
+
 .section-header {
   position: relative;
   display: flex;
@@ -25,10 +29,9 @@
   }
 }
 
-.skills-container {
+.section-container {
   position: relative;
   width: calc(100vw - 4em);
-  height: auto;
   left: 50%;
   transform: translateX(-50%);
   padding-bottom: 3.5em;

@@ -96,7 +96,7 @@ const AboutMe = () => {
     });
 
     gsap.to(reactRef.current, {
-      x: -0,
+      x: -10,
       y: -150,
       opacity: 1,
       scrollTrigger: {
@@ -120,7 +120,7 @@ const AboutMe = () => {
     });
 
     gsap.to(firebaseRef.current, {
-      x: +175,
+      x: +150,
       y: -125,
       opacity: 1,
       scrollTrigger: {
@@ -144,7 +144,7 @@ const AboutMe = () => {
     });
 
     gsap.to(gsapRef.current, {
-      x: +200,
+      x: +175,
       y: -0,
       opacity: 1,
       scrollTrigger: {
