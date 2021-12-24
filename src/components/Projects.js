@@ -19,15 +19,18 @@ import gina_6 from "../assets/slideshow/gina_6.png";
 import gina_7 from "../assets/slideshow/gina_7.png";
 import mdl_1 from "../assets/slideshow/mdl_1.png";
 import mdl_2 from "../assets/slideshow/mdl_2.png";
+import transistor_gif from "../assets/transistor_gif.gif";
+import earth_gif from "../assets/earth_gif.gif";
+import tm_flower_gif from "../assets/tm_flower.gif";
 
 
 const Projects = () => {
   const [showSlideShow, setSlideShow] = useState(false);
   const [current_image_set, setImageSet] = useState("amzn_1");
 
-  // const slideImages = [
-  //   slide_1, slide_2
-  // ];
+  const [showDuoContainer, setShowDuoContainer] = useState(false);
+  const [currentGif, setCurrentGif] = useState("transistor_gif");
+
 
   const slideshowImages = {
     "amzn_1" : [culb_7, culb_1, culb_2, culb_3, culb_4, culb_5, culb_6],
@@ -35,13 +38,37 @@ const Projects = () => {
     "mdl"    : [mdl_1, mdl_2]
     };
 
+  const gifImages = {
+    "transistor_gif": {
+                       gif: transistor_gif, 
+                       title: "Transistor Sword Animation", 
+                       description: "The sword is based on the video game Transistor. The entire sequence is coordinated using CSS alone."
+                      },
+         "earth_gif": {
+                       gif: earth_gif, 
+                       title: "Earth & Plane", 
+                       description: "Based on a random image I found on the internet. This illustration features an infinite scrolling image for the earth. The plane itself will fly in from a random direction."
+                      },
+        "tm_flower_gif": {
+                      gif: tm_flower_gif, 
+                      title: "Live Flower", 
+                      description: "All unique shapes were created using CSS and HTML. The petals rotate using Javascript."
+                      },
+  };
+
   const properties = {
     arrows: true
   };
 
-  const showContent = (id) => {
+  const showSlides = (id) => {
     setSlideShow(true);
     setImageSet(id);
+  }
+
+  const showDetail = (id) => {
+    setShowDuoContainer(true);
+    setCurrentGif(id);
+    
   }
 
 
@@ -52,7 +79,7 @@ const Projects = () => {
         <h3>WEB DESIGN</h3>
         </div>
         <div className="content-container">
-        <div className="amzn_dsp_1 content-block" onClick={()=>{showContent("amzn_1")}}>
+        <div className="amzn_dsp_1 content-block" onClick={()=>{showSlides("amzn_1")}}>
             <div className="amzn_dsp_1 background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -60,7 +87,7 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="amzn_dsp_2 content-block" onClick={()=>{showContent("amzn_2")}}>
+          <div className="amzn_dsp_2 content-block" onClick={()=>{showSlides("amzn_2")}}>
             <div className="amzn_dsp_2 background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -68,7 +95,7 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="mdl content-block" onClick={()=>{showContent("mdl")}}>
+          <div className="mdl content-block" onClick={()=>{showSlides("mdl")}}>
             <div className="mdl background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -85,8 +112,8 @@ const Projects = () => {
         <div className="section-header">
         <h3>DIGITAL ART</h3>
         </div>
-        <div className="content-container">
-          <div className="transistor_sword content-block">
+        <div className="content-container" >
+          <div className="transistor_sword content-block" onClick={()=>showDetail("transistor_gif")}>
             <div className="transistor_sword background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Sword Animaiton</h2>
@@ -94,7 +121,7 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="airplane content-block">
+          <div className="airplane content-block" onClick={()=>showDetail("earth_gif")}>
           <div className="airplane background-mobile"></div>
             <div className="description-block">
               <h2 className="content-title">Earth 2D</h2>
@@ -102,11 +129,11 @@ const Projects = () => {
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
-          <div className="psp_voxel content-block">
+          <div className="psp_voxel content-block" onClick={()=>showDetail("tm_flower_gif")}>
             <div className="psp_voxel background-mobile"></div>
             <div className="description-block">
-              <h2 className="content-title">PSP Voxel</h2>
-              <p>Coordinated animation using GSAP (Greensock)</p>
+              <h2 className="content-title">TM Flower</h2>
+              <p>An animation based on Takashi Murakami's signature flower art.</p>
             </div>
             {/* <div id="transistor_sword" className="background-container"></div> */}
           </div>
@@ -129,19 +156,27 @@ const Projects = () => {
                       <div style={{'backgroundImage': `url(${slideshowImages[current_image_set][index]})`}}></div>
                   </div>
                   ))};
-                    {/* <div className="each-slide">
-                      <div style={{'backgroundImage': `url(${slideshowImages[current_image_set][0]})`}}></div>
-                      <span>Slide 1</span>
-                    </div>
-                    <div className="each-slide">
-                      <div style={{'backgroundImage': `url(${slideshowImages[current_image_set][1]})`}}></div>
-                      <span>Slide 1</span>
-                    </div> */}
                   </Slide>
-
-
       </div>) : null}
 
+      {showDuoContainer ?       
+      (<div className="container">
+        <div className="close-button" onClick={()=>{setShowDuoContainer(false)}}>
+          <p>CLOSE</p>
+        </div>
+
+        <div className="duo-container">
+            <div style={{'backgroundImage': `url(${gifImages[currentGif].gif})`}} className="gif-container"></div>
+            <div className="description-block">
+              <h2 className="content-title">{gifImages[currentGif].title}</h2>
+              <p>{gifImages[currentGif].description}</p>
+              <div className="icon-link">
+                <span>View Code</span>
+                <i class="gg-arrow-top-right-r"></i>
+              </div>
+            </div>
+        </div>
+      </div>) : null}
 
     </>
   );
