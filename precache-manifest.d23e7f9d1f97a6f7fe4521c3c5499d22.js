@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbdc34c256edfda607fcb7388bc69df1",
+    "revision": "99bb6a40e36a97f8603fac16a36410a2",
     "url": "/Gilberto_Placidon_Portfolio/index.html"
   },
   {
-    "revision": "5a02aa9530c57ce6d366",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css"
+    "revision": "c33ab8a5885f34a40351",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css"
   },
   {
-    "revision": "03603db6103175b12a92",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/main.9b11f528.chunk.css"
+    "revision": "82a54b33bfec7f59bcb1",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/main.e090ed4d.chunk.css"
   },
   {
-    "revision": "5a02aa9530c57ce6d366",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js"
+    "revision": "c33ab8a5885f34a40351",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js"
   },
   {
-    "revision": "088d890b6679633115639f652c872694",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js.LICENSE.txt"
+    "revision": "011733e924b9dc35f826ea0522c6cf0a",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03603db6103175b12a92",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/main.40d41a3e.chunk.js"
+    "revision": "82a54b33bfec7f59bcb1",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/main.777b6d4d.chunk.js"
   },
   {
     "revision": "537519b8a5f8fac0720e",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3972949aec9c96e42dc3b54a3974596b",
     "url": "/Gilberto_Placidon_Portfolio/static/media/airplane.3972949a.png"
+  },
+  {
+    "revision": "f9a2228d683b138967180ff11697a9db",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg"
   },
   {
     "revision": "0be93193211413fced826185db7769bd",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "292ce1f2d4bbf649c547a2fa5d9a60f5",
     "url": "/Gilberto_Placidon_Portfolio/static/media/culb_7.292ce1f2.png"
+  },
+  {
+    "revision": "b2c71a4b555ae301816b23954fec1a33",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/earth_gif.b2c71a4b.gif"
   },
   {
     "revision": "725615b09ded3e642c5788451ca53561",
@@ -112,8 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Gilberto_Placidon_Portfolio/static/media/mdl_2.5b4a8d29.png"
   },
   {
-    "revision": "da8914e772d8f97fd2e77ec285875778",
-    "url": "/Gilberto_Placidon_Portfolio/static/media/psp_voxel.da8914e7.png"
+    "revision": "fb0a35e187761520e69728cd1c4c5fa9",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/tm_flower.fb0a35e1.gif"
+  },
+  {
+    "revision": "f9955c52700f80c94384b72bde586369",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/tm_flower_frame.f9955c52.png"
+  },
+  {
+    "revision": "5925a2c46b66353a0f01c17f9437c722",
+    "url": "/Gilberto_Placidon_Portfolio/static/media/transistor_gif.5925a2c4.gif"
   },
   {
     "revision": "4432bce4b876a09ba27ddd57c232a02a",

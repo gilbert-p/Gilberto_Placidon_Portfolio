@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.9b11f528.chunk.css",
-    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.40d41a3e.chunk.js",
-    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.40d41a3e.chunk.js.map",
+    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.e090ed4d.chunk.css",
+    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.777b6d4d.chunk.js",
+    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.777b6d4d.chunk.js.map",
     "runtime-main.js": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js",
     "runtime-main.js.map": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js.map",
-    "static/css/2.799c978e.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css",
-    "static/js/2.a0fc89b3.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js",
-    "static/js/2.a0fc89b3.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js.map",
+    "static/css/2.1be12fd0.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css",
+    "static/js/2.c616e6b9.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js",
+    "static/js/2.c616e6b9.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.map",
     "index.html": "/Gilberto_Placidon_Portfolio/index.html",
-    "precache-manifest.e40f1b4447ada844380d2724e46717fd.js": "/Gilberto_Placidon_Portfolio/precache-manifest.e40f1b4447ada844380d2724e46717fd.js",
+    "precache-manifest.d23e7f9d1f97a6f7fe4521c3c5499d22.js": "/Gilberto_Placidon_Portfolio/precache-manifest.d23e7f9d1f97a6f7fe4521c3c5499d22.js",
     "service-worker.js": "/Gilberto_Placidon_Portfolio/service-worker.js",
-    "static/css/2.799c978e.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.799c978e.chunk.css.map",
-    "static/css/main.9b11f528.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.9b11f528.chunk.css.map",
-    "static/js/2.a0fc89b3.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.a0fc89b3.chunk.js.LICENSE.txt",
+    "static/css/2.1be12fd0.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css.map",
+    "static/css/main.e090ed4d.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.e090ed4d.chunk.css.map",
+    "static/js/2.c616e6b9.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.LICENSE.txt",
     "static/media/Projects.scss": "/Gilberto_Placidon_Portfolio/static/media/transistor_sword.4432bce4.png",
+    "static/media/all.svg": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg",
     "static/media/culb_1.png": "/Gilberto_Placidon_Portfolio/static/media/culb_1.0be93193.png",
     "static/media/culb_2.png": "/Gilberto_Placidon_Portfolio/static/media/culb_2.deb70cbd.png",
     "static/media/culb_3.png": "/Gilberto_Placidon_Portfolio/static/media/culb_3.2b09ae73.png",
@@ -22,6 +23,7 @@
     "static/media/culb_5.png": "/Gilberto_Placidon_Portfolio/static/media/culb_5.65ecac8e.png",
     "static/media/culb_6.png": "/Gilberto_Placidon_Portfolio/static/media/culb_6.8a7f5a93.png",
     "static/media/culb_7.png": "/Gilberto_Placidon_Portfolio/static/media/culb_7.292ce1f2.png",
+    "static/media/earth_gif.gif": "/Gilberto_Placidon_Portfolio/static/media/earth_gif.b2c71a4b.gif",
     "static/media/gina_1.png": "/Gilberto_Placidon_Portfolio/static/media/gina_1.725615b0.png",
     "static/media/gina_2.png": "/Gilberto_Placidon_Portfolio/static/media/gina_2.44115e78.png",
     "static/media/gina_3.png": "/Gilberto_Placidon_Portfolio/static/media/gina_3.843f697e.png",
@@ -31,13 +33,15 @@
     "static/media/gina_7.png": "/Gilberto_Placidon_Portfolio/static/media/gina_7.62278d77.png",
     "static/media/gsap-logo1.5x.png": "/Gilberto_Placidon_Portfolio/static/media/gsap-logo1.5x.fd5c7a46.png",
     "static/media/mdl_1.png": "/Gilberto_Placidon_Portfolio/static/media/mdl_1.17d4a1af.png",
-    "static/media/mdl_2.png": "/Gilberto_Placidon_Portfolio/static/media/mdl_2.5b4a8d29.png"
+    "static/media/mdl_2.png": "/Gilberto_Placidon_Portfolio/static/media/mdl_2.5b4a8d29.png",
+    "static/media/tm_flower.gif": "/Gilberto_Placidon_Portfolio/static/media/tm_flower.fb0a35e1.gif",
+    "static/media/transistor_gif.gif": "/Gilberto_Placidon_Portfolio/static/media/transistor_gif.5925a2c4.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f1e156d5.js",
-    "static/css/2.799c978e.chunk.css",
-    "static/js/2.a0fc89b3.chunk.js",
-    "static/css/main.9b11f528.chunk.css",
-    "static/js/main.40d41a3e.chunk.js"
+    "static/css/2.1be12fd0.chunk.css",
+    "static/js/2.c616e6b9.chunk.js",
+    "static/css/main.e090ed4d.chunk.css",
+    "static/js/main.777b6d4d.chunk.js"
   ]
 }
