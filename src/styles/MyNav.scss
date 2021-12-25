@@ -11,7 +11,7 @@ $color-link-4: #ff6057;
   grid-template-columns: 150px 1fr 1fr 2fr 150px;
   grid-template-rows: 4em;
   top: 2em;
-  background-color: #2d2f31c2;
+  background-color: #2d2f31e0;
   z-index: 900;
 
   .logo-container {
@@ -35,8 +35,8 @@ $color-link-4: #ff6057;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 600;
     overflow: visible;
     margin-top: 1em;
 
@@ -58,7 +58,7 @@ $color-link-4: #ff6057;
       }
     }
 
-    .about-me-link {
+    .design-link {
       color: #e96feb;
     }
 
@@ -162,7 +162,7 @@ $color-link-4: #ff6057;
     #mobile-about-me-link {
       color: $color-link-2;
     }
-    #mobile-skills-link {
+    #mobile-design-link {
       color: $color-link-3;
     }
     #mobile-projects-link {

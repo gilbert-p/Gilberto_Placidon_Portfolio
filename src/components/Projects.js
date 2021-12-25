@@ -40,16 +40,19 @@ const Projects = () => {
 
   const gifImages = {
     "transistor_gif": {
+                       link: "https://codepen.io/epoxi117-the-lessful/pen/eYEEJKQ",
                        gif: transistor_gif, 
                        title: "Transistor Sword Animation", 
                        description: "The sword is based on the video game Transistor. The entire sequence is coordinated using CSS alone."
                       },
          "earth_gif": {
+                       link: "https://codepen.io/epoxi117-the-lessful/pen/mdwNGKo",
                        gif: earth_gif, 
                        title: "Earth & Plane", 
-                       description: "Based on a random image I found on the internet. This illustration features an infinite scrolling image for the earth. The plane itself will fly in from a random direction."
+                       description: "Based on a random image I found on the internet. This illustration features an infinite scrolling image for the earth. The plane itself will fly in from a random direction.",
                       },
         "tm_flower_gif": {
+                      link: "https://codepen.io/epoxi117-the-lessful/pen/PoYQBoP",
                       gif: tm_flower_gif, 
                       title: "Live Flower", 
                       description: "All unique shapes were created using CSS and HTML. The petals rotate using Javascript."
@@ -76,7 +79,8 @@ const Projects = () => {
     <>
       <section id="web-design" class="section-container">
         <div className="section-header">
-        <h3>WEB DESIGN</h3>
+          <i id="design-icon" class="gg-if-design"></i>
+          <h3>WEB DESIGN</h3>
         </div>
         <div className="content-container">
         <div className="amzn_dsp_1 content-block" onClick={()=>{showSlides("amzn_1")}}>
@@ -110,7 +114,8 @@ const Projects = () => {
 
       <section id="digital-art" class="section-container">
         <div className="section-header">
-        <h3>DIGITAL ART</h3>
+          <i class="gg-image"></i>
+          <h3>DIGITAL ART</h3>
         </div>
         <div className="content-container" >
           <div className="transistor_sword content-block" onClick={()=>showDetail("transistor_gif")}>
@@ -170,10 +175,12 @@ const Projects = () => {
             <div className="description-block">
               <h2 className="content-title">{gifImages[currentGif].title}</h2>
               <p>{gifImages[currentGif].description}</p>
-              <div className="icon-link">
-                <span>View Code</span>
-                <i class="gg-arrow-top-right-r"></i>
-              </div>
+              <a href={`${gifImages[currentGif].link}`}>
+                <div className="icon-link">
+                  <span>View Code</span> 
+                  <i class="gg-arrow-top-right-r"></i>
+                </div>
+              </a>
             </div>
         </div>
       </div>) : null}

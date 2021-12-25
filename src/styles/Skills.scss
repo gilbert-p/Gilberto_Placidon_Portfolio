@@ -11,15 +11,6 @@
   height: 45px;
   margin-top: 2em;
   //   background-color: salmon;
-
-  #tools-icon {
-    position: relative;
-    margin: 0.2rem;
-    width: 20px;
-    height: 100%;
-    align-self: center;
-    fill: white;
-  }
   > h3 {
     margin-left: 0.5em;
     margin-top: 2px;
@@ -61,7 +52,7 @@
 
   > ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     grid-gap: 1rem;
     margin: 0;
     padding: 0;
@@ -69,8 +60,8 @@
     > li {
       display: flex;
       margin-top: 1em;
-      max-width: 364px;
-      min-width: 300px;
+      // max-width: 364px;
+      // min-width: 300px;
       justify-content: flex-start;
       border: 1px solid rgb(202, 200, 200);
       border-radius: 0.5rem;
@@ -98,6 +89,16 @@
 
 li {
   list-style: none;
+}
+
+
+#tools-icon {
+  position: relative;
+  margin: 0.2rem;
+  width: 20px;
+  height: 100%;
+  align-self: center;
+  fill: white;
 }
 
 @media only screen and (max-width: 420px) {

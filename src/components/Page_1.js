@@ -56,7 +56,7 @@ const Page_1 = () => {
       <div className="grid-container">
         <div id="title-container">
           <h1 id="name">Gilberto Placidon</h1>
-          <h2 id="sub-title">Frontend Developer</h2>
+          <h2 id="sub-title">Developer</h2>
         </div>
 
         <div className="swiss-circle-container">

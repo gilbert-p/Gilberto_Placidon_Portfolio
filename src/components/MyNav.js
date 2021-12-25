@@ -20,22 +20,22 @@ const MyNav = () => {
     gsap.to(window, { duration: 1, scrollTo: ".grid-container" });
   };
 
-  const navigateAbout = (e) => {
-    e.preventDefault();
-    if (showMenu) {
-      gsap.to(".mobile-nav-container", { top: scrollBack, duration });
-      setShowMenu(!showMenu);
-    }
-    gsap.to(window, { duration: 1, scrollTo: ".about-me-content" });
-  };
-
   const navigateSkills = (e) => {
     e.preventDefault();
     if (showMenu) {
       gsap.to(".mobile-nav-container", { top: scrollBack, duration });
       setShowMenu(!showMenu);
     }
-    gsap.to(window, { duration: 1, scrollTo: ".skills-container" });
+    gsap.to(window, { duration: 1, scrollTo: "#skills-section" });
+  };
+
+  const navigateDesign = (e) => {
+    e.preventDefault();
+    if (showMenu) {
+      gsap.to(".mobile-nav-container", { top: scrollBack, duration });
+      setShowMenu(!showMenu);
+    }
+    gsap.to(window, { duration: 1, scrollTo: "#web-design" });
   };
 
   const navigateProjects = (e) => {
@@ -44,7 +44,7 @@ const MyNav = () => {
       gsap.to(".mobile-nav-container", { top: scrollBack, duration });
       setShowMenu(!showMenu);
     }
-    gsap.to(window, { duration: 1, scrollTo: "#projects-card-container" });
+    gsap.to(window, { duration: 1, scrollTo: "#digital-art" });
   };
 
   const mobileMenu = () => {
@@ -68,14 +68,14 @@ const MyNav = () => {
           <a onClick={navigateHome} href="#" id="mobile-home-link">
             <span>Home</span>
           </a>
-          <a onClick={navigateAbout} href="#" id="mobile-about-me-link">
-            <span>About Me</span>
-          </a>
           <a onClick={navigateSkills} href="#" id="mobile-skills-link">
             <span>Skills</span>
           </a>
+          <a onClick={navigateDesign} href="#" id="mobile-design-link">
+            <span>Web Design</span>
+          </a>
           <a onClick={navigateProjects} href="#" id="mobile-projects-link">
-            <span>Projects</span>
+            <span>Digital Art</span>
           </a>
         </div>
       </div>
@@ -88,14 +88,14 @@ const MyNav = () => {
           <div className="home-link" onClick={navigateHome}>
             Home
           </div>
-          <div className="about-me-link" onClick={navigateAbout}>
-            About
-          </div>
           <div className="skills-link" onClick={navigateSkills}>
             Skills
           </div>
+          <div className="design-link" onClick={navigateDesign}>
+            Web Design
+          </div>
           <div className="projects-link" onClick={navigateProjects}>
-            Projects
+            Digital Art
           </div>
         </div>
       </div>

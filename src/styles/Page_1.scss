@@ -67,7 +67,7 @@ svg {
 
 #title-container {
   position: absolute;
-  width: auto;
+  width: 30vw;
   left: 50%;
   top: 50%;
   transform: translate(-56%, -50%);
@@ -87,22 +87,45 @@ svg {
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:1850px) {
   #title-container {
     transform: translate(-56%, -50%);
     #name {
       width: auto;
-      font-size: 3.42em;
+      font-size: 2.5rem;
     }
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:1024px) {
+  #title-container {
+    transform: translate(-55%, -50%);
+    width: 45vw;
+    #name {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
   #title-container {
     transform: translate(-56%, -50%);
+    width: 55vw;
     #name {
-      width: auto;
-      font-size: 3em;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #title-container {
+    transform: translate(-45%, -50%);
+    width: 70vw;
+    #name {
+      font-size: 1.6rem;
+    }
+    #sub-title {
+      font-size: 1.4rem;
     }
   }
 }
