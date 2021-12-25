@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.e090ed4d.chunk.css",
-    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.777b6d4d.chunk.js",
-    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.777b6d4d.chunk.js.map",
+    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.7a1e925e.chunk.css",
+    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.1951a161.chunk.js",
+    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.1951a161.chunk.js.map",
     "runtime-main.js": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js",
     "runtime-main.js.map": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js.map",
     "static/css/2.1be12fd0.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css",
     "static/js/2.c616e6b9.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js",
     "static/js/2.c616e6b9.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.map",
     "index.html": "/Gilberto_Placidon_Portfolio/index.html",
-    "precache-manifest.d23e7f9d1f97a6f7fe4521c3c5499d22.js": "/Gilberto_Placidon_Portfolio/precache-manifest.d23e7f9d1f97a6f7fe4521c3c5499d22.js",
+    "precache-manifest.fc79cee3ddc3aee3e26d151b24622644.js": "/Gilberto_Placidon_Portfolio/precache-manifest.fc79cee3ddc3aee3e26d151b24622644.js",
     "service-worker.js": "/Gilberto_Placidon_Portfolio/service-worker.js",
     "static/css/2.1be12fd0.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css.map",
-    "static/css/main.e090ed4d.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.e090ed4d.chunk.css.map",
+    "static/css/main.7a1e925e.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.7a1e925e.chunk.css.map",
     "static/js/2.c616e6b9.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.LICENSE.txt",
     "static/media/Projects.scss": "/Gilberto_Placidon_Portfolio/static/media/transistor_sword.4432bce4.png",
     "static/media/all.svg": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.f1e156d5.js",
     "static/css/2.1be12fd0.chunk.css",
     "static/js/2.c616e6b9.chunk.js",
-    "static/css/main.e090ed4d.chunk.css",
-    "static/js/main.777b6d4d.chunk.js"
+    "static/css/main.7a1e925e.chunk.css",
+    "static/js/main.1951a161.chunk.js"
   ]
 }
