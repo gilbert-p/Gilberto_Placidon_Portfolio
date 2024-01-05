@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.7a1e925e.chunk.css",
-    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.1951a161.chunk.js",
-    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.1951a161.chunk.js.map",
-    "runtime-main.js": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js",
-    "runtime-main.js.map": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js.map",
-    "static/css/2.1be12fd0.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css",
-    "static/js/2.c616e6b9.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js",
-    "static/js/2.c616e6b9.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.map",
+    "main.css": "/Gilberto_Placidon_Portfolio/static/css/main.ef42baf8.chunk.css",
+    "main.js": "/Gilberto_Placidon_Portfolio/static/js/main.18216758.chunk.js",
+    "main.js.map": "/Gilberto_Placidon_Portfolio/static/js/main.18216758.chunk.js.map",
+    "runtime-main.js": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.7e5bcbcc.js",
+    "runtime-main.js.map": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.7e5bcbcc.js.map",
+    "static/css/2.e6d2f6ae.chunk.css": "/Gilberto_Placidon_Portfolio/static/css/2.e6d2f6ae.chunk.css",
+    "static/js/2.ec850225.chunk.js": "/Gilberto_Placidon_Portfolio/static/js/2.ec850225.chunk.js",
+    "static/js/2.ec850225.chunk.js.map": "/Gilberto_Placidon_Portfolio/static/js/2.ec850225.chunk.js.map",
     "index.html": "/Gilberto_Placidon_Portfolio/index.html",
-    "precache-manifest.fc79cee3ddc3aee3e26d151b24622644.js": "/Gilberto_Placidon_Portfolio/precache-manifest.fc79cee3ddc3aee3e26d151b24622644.js",
+    "precache-manifest.e3436b8158cfb8face0a926e146d2bcf.js": "/Gilberto_Placidon_Portfolio/precache-manifest.e3436b8158cfb8face0a926e146d2bcf.js",
     "service-worker.js": "/Gilberto_Placidon_Portfolio/service-worker.js",
-    "static/css/2.1be12fd0.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css.map",
-    "static/css/main.7a1e925e.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.7a1e925e.chunk.css.map",
-    "static/js/2.c616e6b9.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.LICENSE.txt",
+    "static/css/2.e6d2f6ae.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/2.e6d2f6ae.chunk.css.map",
+    "static/css/main.ef42baf8.chunk.css.map": "/Gilberto_Placidon_Portfolio/static/css/main.ef42baf8.chunk.css.map",
+    "static/js/2.ec850225.chunk.js.LICENSE.txt": "/Gilberto_Placidon_Portfolio/static/js/2.ec850225.chunk.js.LICENSE.txt",
     "static/media/Projects.scss": "/Gilberto_Placidon_Portfolio/static/media/transistor_sword.4432bce4.png",
-    "static/media/all.svg": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg",
     "static/media/culb_1.png": "/Gilberto_Placidon_Portfolio/static/media/culb_1.0be93193.png",
     "static/media/culb_2.png": "/Gilberto_Placidon_Portfolio/static/media/culb_2.deb70cbd.png",
     "static/media/culb_3.png": "/Gilberto_Placidon_Portfolio/static/media/culb_3.2b09ae73.png",
@@ -38,10 +37,10 @@
     "static/media/transistor_gif.gif": "/Gilberto_Placidon_Portfolio/static/media/transistor_gif.5925a2c4.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1e156d5.js",
-    "static/css/2.1be12fd0.chunk.css",
-    "static/js/2.c616e6b9.chunk.js",
-    "static/css/main.7a1e925e.chunk.css",
-    "static/js/main.1951a161.chunk.js"
+    "static/js/runtime-main.7e5bcbcc.js",
+    "static/css/2.e6d2f6ae.chunk.css",
+    "static/js/2.ec850225.chunk.js",
+    "static/css/main.ef42baf8.chunk.css",
+    "static/js/main.18216758.chunk.js"
   ]
 }

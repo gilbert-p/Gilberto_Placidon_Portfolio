@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "658fcf5917c9ba196f6f020a884c6def",
+    "revision": "50a91fc62f9ac0ed9b549ff5c8a59b9b",
     "url": "/Gilberto_Placidon_Portfolio/index.html"
   },
   {
-    "revision": "c33ab8a5885f34a40351",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/2.1be12fd0.chunk.css"
+    "revision": "214726ed78566b555eb8",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/2.e6d2f6ae.chunk.css"
   },
   {
-    "revision": "1adfe14ba49e15a8bc50",
-    "url": "/Gilberto_Placidon_Portfolio/static/css/main.7a1e925e.chunk.css"
+    "revision": "5202d58b0207f8037394",
+    "url": "/Gilberto_Placidon_Portfolio/static/css/main.ef42baf8.chunk.css"
   },
   {
-    "revision": "c33ab8a5885f34a40351",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js"
+    "revision": "214726ed78566b555eb8",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.ec850225.chunk.js"
   },
   {
-    "revision": "011733e924b9dc35f826ea0522c6cf0a",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/2.c616e6b9.chunk.js.LICENSE.txt"
+    "revision": "96024c60d825b06ad12faa8aa42e8308",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/2.ec850225.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1adfe14ba49e15a8bc50",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/main.1951a161.chunk.js"
+    "revision": "5202d58b0207f8037394",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/main.18216758.chunk.js"
   },
   {
-    "revision": "537519b8a5f8fac0720e",
-    "url": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.f1e156d5.js"
+    "revision": "e493fffed7b1623b6907",
+    "url": "/Gilberto_Placidon_Portfolio/static/js/runtime-main.7e5bcbcc.js"
   },
   {
     "revision": "bcf96e94c10b30d98993e0744782a42c",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3972949aec9c96e42dc3b54a3974596b",
     "url": "/Gilberto_Placidon_Portfolio/static/media/airplane.3972949a.png"
-  },
-  {
-    "revision": "f9a2228d683b138967180ff11697a9db",
-    "url": "/Gilberto_Placidon_Portfolio/static/media/all.f9a2228d.svg"
   },
   {
     "revision": "0be93193211413fced826185db7769bd",
